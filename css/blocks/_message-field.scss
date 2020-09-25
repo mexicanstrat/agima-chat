@@ -1,0 +1,52 @@
+.b-message-field {
+    font-family: $roboto-font;
+    font-size: 14px;
+    line-height: 24px;
+    color: $message-field-color;
+    padding: 40px 0 10px 0;
+    &__sender {
+        background-image: url(../img/profile.jpg);
+        min-width: 45px;
+        height: 44px;
+        background-size: 116px;
+        background-repeat: no-repeat;
+        background-position: -40px -2px;
+        -webkit-clip-path: polygon(50% 3%, 100% 40%, 80% 100%, 20% 100%, 0% 40%);
+        clip-path: polygon(50% 3%, 100% 40%, 80% 100%, 20% 100%, 0% 40%); 
+        &_left {
+            float: left;
+        }
+        &_right {
+            float: right;
+        }
+    }
+    &__message-wrap {
+        position: relative;
+        background: $background-message-field-color;
+        border-radius: 5px;
+        &_left {
+            padding: 14px 16px 10px 16px;
+            margin-left: 18px;
+            margin-right: 60px;
+        }
+        &_right {
+            padding: 14px 22px 10px 12px;
+            margin-right: 19px;
+            margin-left: 60px;
+        }
+    }
+    &__field-wrap {
+        padding: 0 20px 0 16.5px; 
+        display: flex;
+        &_margin {
+            margin-bottom: 18px;
+        }
+        &_left {
+            justify-content: flex-start;
+        }
+        &_right {
+            justify-content: flex-end;
+        }
+    }
+}
+

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/Proxima Nova.ttf');
+}
+
+$roboto-font: 'Roboto', sans-serif;
+$noto-sans-font: 'Noto Sans', sans-serif;
+$proxima-nova-font: 'Proxima Nova', sans-serif;
+
+$message-field-color: #000000;
+$background-message-field-color: #F1F3F5;

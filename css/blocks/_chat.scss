@@ -1,0 +1,37 @@
+.b-chat {
+    width: 651px;
+    margin: 0 auto;
+    background-image: url(../img/background.jpg);
+    background-position: -805px -75px;
+    background-size: 235%;
+    background-repeat: no-repeat;
+    &__line-wrap {
+        display: flex;
+        align-items: center;
+        &_margin {
+            margin-top: -1px;
+            margin-bottom: 18.3px;
+        }
+    }
+    &__line {
+        &_left {
+            width: 98%!important;
+        }
+        &_right {
+            width: 95%!important;
+        }
+    }
+    &__line-text {
+        width: 50%;
+        text-align: center;
+        padding-left: 16px;
+        padding-right: 28px;
+    }
+    &__form {
+        padding: 20px 41px 27px 20px;
+    }
+    &__message-field {
+        overflow-y: scroll;
+        max-height: 564px;
+    }
+}

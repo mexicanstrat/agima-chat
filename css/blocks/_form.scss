@@ -1,0 +1,30 @@
+.b-form {
+    &__textarea {
+        width: 100%;
+        height: 130px;
+        resize: none;
+        font-family: $noto-sans-font;
+        border: 1px solid #DBDBDB;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 19px;
+        color: #696969;
+        &_margin-bottom {
+            margin-bottom: 17px;
+        }
+    }
+    &__button {
+        height: 41px;
+        width: 144px;
+        border-radius: 21px;
+        background: #0F54B9;
+        box-shadow: 0px 4px 6px rgba(15, 84, 185, 0.3);
+        border-radius: 21px;
+        font-family: $proxima-nova-font;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
